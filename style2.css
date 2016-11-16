@@ -1,0 +1,15 @@
+h1 {
+    font-family: Impact, Charcoal, sans-serif;
+}
+p {
+    color: tomato;
+}
+body {
+    background-color: blanchedalmond;
+}
+ul {
+    list-style-position: oustide;
+}
+a {
+    font-weight: bold;
+}

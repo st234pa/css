@@ -1,0 +1,15 @@
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+p {
+    color: goldenrod;
+}
+body {
+    background-color: lightsteelblue;
+}
+ul {
+    list-style-position: inside;
+}
+a {
+    font-style: italic;
+}
