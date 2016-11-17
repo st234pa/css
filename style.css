@@ -13,3 +13,19 @@ ul {
 a {
     font-style: italic;
 }
+
+div {
+    text-align: center;
+}
+.navzone {
+    border: 2px solid goldenrod;
+}
+.extreme {
+    color: tomato;
+}
+.content {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#head1 {
+    font-weight: bold;
+}
