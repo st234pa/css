@@ -1,0 +1,50 @@
+body {
+    background-color: #ECA72C;
+    color: #221E22;
+    font-family: 'Helvetica Neue', sans-serif;
+    padding: 2cm 4cm 3cm 4cm;
+}
+a {
+    border-radius: 5px;
+    background-color: #31263E;
+    color: #EE5622;
+    padding: 40px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover {
+    background-color: #44355B;
+}
+h2 {
+    color: #EE5622;
+    letter-spacing: 2px;
+}
+h3 {
+    color: #EE5622;
+    letter-spacing: 2px;
+}
+ul {
+    color: #44355B;
+    list-style-type: square;
+}
+ol {
+    color: #44355B;
+}
+h1 {
+    animation-name : colorchange;
+    animation-duration : 10s;
+    animation-iteration-count : infinite;
+}
+
+@keyframes colorchange {
+    0% {color : #221E22}
+    12.5% {color: #31263E} 
+    25% {color: #44355B}
+    37.5% {color: #EE5622}
+    50% {color : #ECA72C}
+    62.5% {color: #EE5622}
+    75% {color: #44355B}
+    87.5% {color: #31263E}
+    100% {color : #221E22}
+}
